@@ -1,0 +1,25 @@
+{
+  "name": "starlight-plugin-template",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "keywords": [
+    "withastro",
+    "starlight"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "astro": "^3.6.4",
+    "@astrojs/starlight": "^0.14.0"
+  },
+  "peerDependencies": {
+    "astro": "^3.0.0",
+    "@astrojs/starlight": "^0.14.0"
+  }
+}
